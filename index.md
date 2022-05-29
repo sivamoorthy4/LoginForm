@@ -1,37 +1,64 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<head>
 
-You can use the [editor on GitHub](https://github.com/sivamoorthy4/LoginForm/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+    <meta charset="utf-8">
+    <meta name="viewport"  content="width=device-width,intial-scale=1.0">
+<title>Home</title>
+<link rel="icon" type="image/x-icon" href="image/favicon2.ico">
+<link rel="stylesheet" href="style.css" type="text/css">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+</head>
 
-### Markdown
+<body>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <!-- <header>Facebook</header> -->
 
-```markdown
-Syntax highlighted code block
+   <!-- <header>Facebook</header> -->
 
-# Header 1
-## Header 2
-### Header 3
+    <section>
+        
+        <div class="imageBx">
+            <img src="/image/cp1.jpg" alt="cpeople">
+        </div>
+        
+        <div class="contentBx">
+            <div class="formBx">
+                <h2>Login</h2>
+                
+                <form>
+                    <div class="inputBx">
+                        <span>UserName:</span>
+                        <input type="text" name="">
+                    </div>
+                    <div class="inputBx">
+                        <span>Password:</span>
+                        <input type="password" name="">                    
+                    </div>
+                    <div class="remember">
+                        <input type="checkbox"><label>Remember me</label>
+                    </div>
+                    <div class="inputBx">
+                        <input type="submit" value="Sign in" name="">                    
+                    </div>
+                    
+                    <div class="linkBx">
+                        
+                        <ul class="sci">
+                             <li> <a href="#">Signup</a></li>
+                             <li><a href="#">Forget password</a></li>
+                            
+                        <ul>
+                                          
+                    </div>
+                </form>
+            </div>           
+        </div>
 
-- Bulleted
-- List
+    </section>
+    <!-- <button type="button" name="login" value="login" onclick="alert('Form submitted')">Signin</button> -->
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+</body>
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sivamoorthy4/LoginForm/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html>
